@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import Navigation from "./Navigation";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,25 +11,7 @@ function Header() {
   return (
     <header>
       <h1>PORTFOLIO OF RYAN GOLDER</h1>
-      <nav className={menuOpen ? 'open' : ''}>
-        <ul>
-          <li>
-            <a href="#bio" alt="Link to the Bio of Ryan Golder">
-              Bio
-            </a>
-          </li>
-          <li>
-            <a href="#portfolio" alt="Link to the Portfolio of Ryan Golder">
-              Portfolio
-            </a>
-          </li>
-          <li>
-            <a href="#contact" alt="Contact details of Ryan Golder">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <Navigation />
       <button className="menu-toggle" onClick={toggleMenu}>
         Menu
       </button>
