@@ -9,7 +9,7 @@ function Header() {
   };
 
   return (
-    <header>
+    <header className="App-header">
       <h1>PORTFOLIO OF RYAN GOLDER</h1>
       <Navigation />
       <button className="menu-toggle" onClick={toggleMenu}>

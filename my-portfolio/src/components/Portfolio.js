@@ -16,6 +16,12 @@ function Portfolio() {
       appLink: 'https://elibrer.github.io/weather-fashion-app/',
       repoLink: 'https://github.com/Elibrer/weather-fashion-app',
     },
+    {
+      image: 'project3.png',
+      title: 'Project 3',
+      appLink: 'https://pwa-text-editor-rwg-8f9b6c51a974.herokuapp.com/',
+      repoLink: 'https://github.com/RyanGolder/pwa-text-editor',
+    },
     // Add more projects as needed
   ];
 
