@@ -33,8 +33,8 @@ function App() {
   return (
     <div>
       <Header className="App-header" currentPage={currentPage} handlePageChange={handlePageChange} />
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <Navigation handlePageChange={handlePageChange} />
+      <div className="content">{renderPage()}</div>
       <Footer />
     </div>
   );

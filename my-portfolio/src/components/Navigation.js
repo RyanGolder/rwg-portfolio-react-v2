@@ -1,32 +1,40 @@
-import React from "react";
+import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
-  const navigateToPage = (page) => {
-    handlePageChange(page);
-  };
-
   return (
     <nav>
       <ul>
         <li>
-          <a href="#bio" onClick={() => navigateToPage('Bio')} alt="Link to the Bio of Ryan Golder">
+          <button
+            onClick={() => handlePageChange('Bio')}
+            className={currentPage === 'Bio' ? 'active' : ''}
+          >
             Bio
-          </a>
+          </button>
         </li>
         <li>
-          <a href="#portfolio" onClick={() => navigateToPage('Portfolio')}>
+          <button
+            onClick={() => handlePageChange('Portfolio')}
+            className={currentPage === 'Portfolio' ? 'active' : ''}
+          >
             Portfolio
-          </a>
+          </button>
         </li>
         <li>
-          <a href="#contact" onClick={() => navigateToPage('Contact')} alt="Contact details of Ryan Golder">
+          <button
+            onClick={() => handlePageChange('Contact')}
+            className={currentPage === 'Contact' ? 'active' : ''}
+          >
             Contact
-          </a>
+          </button>
         </li>
         <li>
-          <a href="#resume" onClick={() => navigateToPage('Resume')} alt="Resume of Ryan Golder">
+          <button
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'active' : ''}
+          >
             Resume
-          </a>
+          </button>
         </li>
       </ul>
     </nav>
