@@ -1,22 +1,14 @@
-import React, { useState } from "react";
-import Navigation from "./Navigation";
+import React from 'react';
+import Navigation from './Navigation';
 
-function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
+function Header({ currentPage, handlePageChange }) {
   return (
-    <header className="App-header">
-      <h1>PORTFOLIO OF RYAN GOLDER</h1>
-      <Navigation />
-      <button className="menu-toggle" onClick={toggleMenu}>
-        Menu
-      </button>
+    <header className="bg-light p-3">
+      <h1 className="text-center">PORTFOLIO OF RYAN GOLDER</h1>
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
   );
 }
 
 export default Header;
+

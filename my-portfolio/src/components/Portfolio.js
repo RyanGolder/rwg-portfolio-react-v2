@@ -1,24 +1,27 @@
 import React from 'react';
 import Project from './Project';
+import weatherForecastImage from '../images/weather-forecast.png';
+import outfitForecastImage from '../images/outfit-forecast.png';
+import jateImage from '../images/JATE.png';
 
 function Portfolio() {
   // Define your projects here
   const projects = [
     {
-      image: 'project1.png',
-      title: 'Project 1',
+      image: weatherForecastImage,
+      title: 'Weather Forecast',
       appLink: 'https://ryangolder.github.io/weather-forecast/',
       repoLink: 'https://github.com/RyanGolder/weather-forecast',
     },
     {
-      image: 'project2.png',
-      title: 'Project 2',
+      image: outfitForecastImage,
+      title: 'Outfit Forecast',
       appLink: 'https://elibrer.github.io/weather-fashion-app/',
       repoLink: 'https://github.com/Elibrer/weather-fashion-app',
     },
     {
-      image: 'project3.png',
-      title: 'Project 3',
+      image: jateImage,
+      title: 'JATE',
       appLink: 'https://pwa-text-editor-rwg-8f9b6c51a974.herokuapp.com/',
       repoLink: 'https://github.com/RyanGolder/pwa-text-editor',
     },
@@ -26,17 +29,18 @@ function Portfolio() {
   ];
 
   return (
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div className="projects">
+    <section id="portfolio" className="container py-5">
+      <h2 className="text-center">Portfolio</h2>
+      <div className="row">
         {projects.map((project, index) => (
-          <Project
-            key={index}
-            image={project.image}
-            title={project.title}
-            appLink={project.appLink}
-            repoLink={project.repoLink}
-          />
+          <div className="col-md-4" key={index}>
+            <Project
+              image={project.image}
+              title={project.title}
+              appLink={project.appLink}
+              repoLink={project.repoLink}
+            />
+          </div>
         ))}
       </div>
     </section>

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Navigation from './components/Navigation';
 import Header from './components/Header';
 import Bio from './components/Bio';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 function App() {
@@ -31,9 +31,8 @@ function App() {
   };
 
   return (
-    <div>
-      <Header className="App-header" currentPage={currentPage} handlePageChange={handlePageChange} />
-      <Navigation handlePageChange={handlePageChange} />
+    <div className="container">
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <div className="content">{renderPage()}</div>
       <Footer />
     </div>

@@ -2,13 +2,13 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="footer-container">
-        <div className="footer-links">
-          <a href="https://github.com/RyanGolder" target="_blank" rel="noopener noreferrer">
+    <footer className="bg-light">
+      <div className="container">
+        <div className="footer-links text-center py-4">
+          <a className="btn btn-primary" href="https://github.com/RyanGolder" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          <a href="https://www.linkedin.com/in/ryan-golder-00b867138/" target="_blank" rel="noopener noreferrer">
+          <a className="btn btn-primary" href="https://www.linkedin.com/in/ryan-golder-00b867138/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
         </div>
