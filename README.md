@@ -16,7 +16,8 @@ This is a portfolio website showcasing the work and skills of Ryan Golder, an as
 - https://ryangolder.github.io/rwg-portfolio-react/
 
 ## Questions
-### Please direct your questions to our development team using the below contact details.
+Please direct your questions to me using the below contact details.
+
 ### Username: 
 https://github.com/ryangolder
 
