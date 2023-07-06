@@ -1,17 +1,25 @@
 import React from 'react';
+import resumePDF from '../assets/resume.pdf';
 
 const Resume = () => {
+  const proficiencies = ['JavaScript', 'React', 'HTML', 'CSS', 'Node.js'];
+
   return (
-    <section className="container py-5">
-      <h1 className="text-center">Resume</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie.
-        Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus.
-        Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa
-        eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-        dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies
-        mollis.
-      </p>
+    <section id="resume" className="container py-5">
+      <h2 className="text-center">Resume</h2>
+      <div className="text-center">
+        <a href={resumePDF} download="resume.pdf" className="btn btn-primary">
+          Download Resume
+        </a>
+      </div>
+      <div className="mt-4">
+        <h3>Proficiencies:</h3>
+        <ul>
+          {proficiencies.map((proficiency, index) => (
+            <li key={index}>{proficiency}</li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 };
