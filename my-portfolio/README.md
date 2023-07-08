@@ -22,7 +22,7 @@ Please direct your questions to me using the below contact details.
 https://github.com/ryangolder
 
 ### Email:
-rgolder78@gmail.com
+rgolder78@gmail.com 
 
 ## License
 
