@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/RyanGolder/rwg-portfolio-react-v2/static/css/main.1714bf41.css",
-    "main.js": "/RyanGolder/rwg-portfolio-react-v2/static/js/main.dac2c61a.js",
-    "static/js/787.128fc6e9.chunk.js": "/RyanGolder/rwg-portfolio-react-v2/static/js/787.128fc6e9.chunk.js",
-    "static/media/outfit-forecast.png": "/RyanGolder/rwg-portfolio-react-v2/static/media/outfit-forecast.14625a5728206ffe7087.png",
-    "static/media/bio-image.jpeg": "/RyanGolder/rwg-portfolio-react-v2/static/media/bio-image.43d4364428e700cb331a.jpeg",
-    "static/media/weather-forecast.png": "/RyanGolder/rwg-portfolio-react-v2/static/media/weather-forecast.095d2fa751d61b4d2661.png",
-    "static/media/resume.pdf": "/RyanGolder/rwg-portfolio-react-v2/static/media/resume.f909fda1991b17a05e8c.pdf",
-    "static/media/JATE.png": "/RyanGolder/rwg-portfolio-react-v2/static/media/JATE.880c65021a5636cf360f.png",
-    "index.html": "/RyanGolder/rwg-portfolio-react-v2/index.html",
-    "main.1714bf41.css.map": "/RyanGolder/rwg-portfolio-react-v2/static/css/main.1714bf41.css.map",
-    "main.dac2c61a.js.map": "/RyanGolder/rwg-portfolio-react-v2/static/js/main.dac2c61a.js.map",
-    "787.128fc6e9.chunk.js.map": "/RyanGolder/rwg-portfolio-react-v2/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/rwg-portfolio-react-v2/static/css/main.1714bf41.css",
+    "main.js": "/rwg-portfolio-react-v2/static/js/main.6871a6e8.js",
+    "static/js/787.128fc6e9.chunk.js": "/rwg-portfolio-react-v2/static/js/787.128fc6e9.chunk.js",
+    "static/media/outfit-forecast.png": "/rwg-portfolio-react-v2/static/media/outfit-forecast.14625a5728206ffe7087.png",
+    "static/media/bio-image.jpeg": "/rwg-portfolio-react-v2/static/media/bio-image.43d4364428e700cb331a.jpeg",
+    "static/media/weather-forecast.png": "/rwg-portfolio-react-v2/static/media/weather-forecast.095d2fa751d61b4d2661.png",
+    "static/media/resume.pdf": "/rwg-portfolio-react-v2/static/media/resume.f909fda1991b17a05e8c.pdf",
+    "static/media/JATE.png": "/rwg-portfolio-react-v2/static/media/JATE.880c65021a5636cf360f.png",
+    "index.html": "/rwg-portfolio-react-v2/index.html",
+    "main.1714bf41.css.map": "/rwg-portfolio-react-v2/static/css/main.1714bf41.css.map",
+    "main.6871a6e8.js.map": "/rwg-portfolio-react-v2/static/js/main.6871a6e8.js.map",
+    "787.128fc6e9.chunk.js.map": "/rwg-portfolio-react-v2/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1714bf41.css",
-    "static/js/main.dac2c61a.js"
+    "static/js/main.6871a6e8.js"
   ]
 }
